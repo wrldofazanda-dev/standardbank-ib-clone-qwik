@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "standardbank-ib-clone-qwik",
+  "short_name": "Welcome to Standard Bank Clone",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A Clone of Standard Bank Internet Banking"
+}
