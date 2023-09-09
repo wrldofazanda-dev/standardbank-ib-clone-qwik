@@ -4,7 +4,7 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 export default component$(() => {
   return (
     <>
-       <div class="landing-page__background-image"></div>
+      <h1>Standard Bank</h1>
     </>
   );
 });
@@ -14,7 +14,7 @@ export const head: DocumentHead = {
   meta: [
     {
       name: "Standard Bank Internet Banking UI Clone",
-      content: "For fun!",
+      content: "A pretty convincing clone of the Standard Bank Internet Banking UI",
     },
   ],
 };
