@@ -1,0 +1,39 @@
+nav {
+    width: 100%;
+    background: linear-gradient(94deg, #0033a1, #00a1e0);
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+
+    .left {
+        display: flex;
+        align-items: center;
+
+        .desktop-text {
+            display: none; 
+        }
+    }
+
+    .right {
+        img {
+            width: 24px;
+            height: 40px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .left {
+            .desktop-text {
+                display: inline; 
+                color: white;
+            }
+        }
+    }
+}
